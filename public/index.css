@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+    /* background-image: url(ntimg.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(ntimg.jpg); */
+    /* background-size: cover; */
+    /* background-color: black; */
+    /* filter: blur(1px); */
+    /* height: 100vh; */
+    /* width: auto; */
+
+
+/* .part{
+position: absolute;
+/* background-color: rgba(0,0,0, 0.6); */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+} */ 
