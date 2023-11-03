@@ -3,11 +3,11 @@ import "./../css.css"
 import Homepage from './../Homepage'
 import TextField from '@mui/material/TextField';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import Logopage from './Logopage';
+import { Fragment } from 'react';
 
 function LandingPage() {
   return (
-    <>
+    <Fragment>
       <div className='Home_page'>
         <Homepage />
         <div className='Home_Con'>
@@ -17,11 +17,11 @@ function LandingPage() {
          <p style={{fontSize: '1.52em', fontWeight: "400"  }}>Ready to watch? Enter your email to create or restart your membership.</p>
          <div>
          <TextField  className='text_H' id="outlined-basic" label="Email Address"/>
-         <button className='bttttn' >Get yess Started<KeyboardArrowRightIcon/></button>
+         <button className='bttttn' >Get Started<KeyboardArrowRightIcon/></button>
          </div>
         </div>
       </div>
-    </>
+    </Fragment>
   )
 }
 

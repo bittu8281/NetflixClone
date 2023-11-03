@@ -28,7 +28,7 @@ function Signfile() {
       <Button href="https://www.netflix.com/in/LoginHelp">Need help?</Button>
       </div>
       
-      <div className='New-sign'><h4>New to NetFLix?<Button href='/'>Sign up now</Button></h4>      
+      <div className='New-sign'><h4>New to NetFLix?<Button href='/NetflixClone'>Sign up now</Button></h4>      
       <p sx={{fontSize: "0.8em"}}>This page is protected by Google reCAPTCHA to ensure you're not a bot.
       { unhide ? <Typography sx={{fontSize: "0.8em"}}>The information collected by Google reCAPTCHA is subject to the Google<a href='https://policies.google.com/privacy'> Privacy Policy</a> and <a href='https://policies.google.com/terms'>Terms of Service</a>, and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google).</Typography>
 :<Button onClick={() => setUnhide(true)}>Learn more.</Button>}</p>

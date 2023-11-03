@@ -1,13 +1,12 @@
 import React from 'react'
 import LandingPage from './component/LandingPage'
-// import Contentpage from './component/Contentpage'
+import { Fragment } from 'react'
 
 function Home() {
   return (
-    <>
+    <Fragment>
     <LandingPage />
-    {/* <Contentpage/> */}
-    </>
+    </Fragment>
   )
 }
 
